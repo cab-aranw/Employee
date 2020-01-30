@@ -51,11 +51,37 @@ namespace EmployeePayments
         {
             //double hourlyRate = 0.0;
             //double amountOfHours = 0.0;
-
+            SalaryBonusTxtBox.Text = "1 %";
             try
             {
                 double hourlyRate = double.Parse(HourlyRateTxtBox.Text);
                 double amountOfHours = double.Parse(AmountofHoursTxtBox.Text);
+                double overTimeHours = amountOfHours - 40;
+                double overTimePayment = 0.0;
+                double SalaryWithoutBonus = 0.0;
+                double totalSalary = 0.0;
+
+                if (overTimeHours > 0)
+                {
+                    OvertimeHoursTxtBox.Text = overTimeHours.ToString();
+                    overTimePayment = hourlyRate / 2;
+                    double totalPerHour = hourlyRate + overTimePayment;
+                    overTimePayment = overTimeHours * totalPerHour;
+                    OvertimePaymentTxtBox.Text = overTimePayment.ToString();
+
+                }
+                else
+                {
+                    OvertimeHoursTxtBox.Text = "0";
+                    OvertimePaymentTxtBox.Text = "0";
+                }
+
+                SalaryWithoutBonus = (amountOfHours * hourlyRate) + overTimePayment;
+                SalaryWithoutBonusTxtBox.Text = SalaryWithoutBonus.ToString();
+
+
+                totalSalary = (SalaryWithoutBonus * EMPLOYEE_BONUS) + SalaryWithoutBonus;
+                TotalSalaryTxtBox.Text = totalSalary.ToString();
 
             }
             catch
