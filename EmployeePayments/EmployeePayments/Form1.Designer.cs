@@ -198,7 +198,7 @@
             this.CalculateButton.Name = "CalculateButton";
             this.CalculateButton.Size = new System.Drawing.Size(142, 42);
             this.CalculateButton.TabIndex = 11;
-            this.CalculateButton.Text = "Calculate";
+            this.CalculateButton.Text = "&Calculate";
             this.CalculateButton.UseVisualStyleBackColor = true;
             this.CalculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
             // 
@@ -208,7 +208,7 @@
             this.RestartButton.Name = "RestartButton";
             this.RestartButton.Size = new System.Drawing.Size(110, 42);
             this.RestartButton.TabIndex = 12;
-            this.RestartButton.Text = "Restart";
+            this.RestartButton.Text = "&Restart";
             this.RestartButton.UseVisualStyleBackColor = true;
             this.RestartButton.Click += new System.EventHandler(this.RestartButton_Click);
             // 
@@ -218,7 +218,7 @@
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(133, 42);
             this.ExitButton.TabIndex = 13;
-            this.ExitButton.Text = "Exit";
+            this.ExitButton.Text = "&Exit";
             this.ExitButton.UseVisualStyleBackColor = true;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
