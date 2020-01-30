@@ -16,5 +16,23 @@ namespace EmployeePayments
         {
             InitializeComponent();
         }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
+
+        private void RestartButton_Click(object sender, EventArgs e)
+        {
+            NameTxtBox.Text = "";
+            HourlyRateTxtBox.Text = "";
+            AmountofHoursTxtBox.Text = "";
+            SalaryBonusTxtBox.Text = "";
+            OvertimePaymentTxtBox.Text = "";
+            OvertimeHoursTxtBox.Text = ""; ;
+            SalaryWithoutBonusTxtBox.Text = "";
+            TotalSalaryTxtBox.Text = "";
+        }
     }
 }

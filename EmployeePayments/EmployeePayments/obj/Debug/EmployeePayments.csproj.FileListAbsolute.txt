@@ -7,3 +7,12 @@ C:\Users\w_ara\source\repos\EmployeePayments\EmployeePayments\obj\Debug\Employee
 C:\Users\w_ara\source\repos\EmployeePayments\EmployeePayments\obj\Debug\EmployeePayments.csproj.GenerateResource.cache
 C:\Users\w_ara\source\repos\EmployeePayments\EmployeePayments\obj\Debug\EmployeePayments.exe
 C:\Users\w_ara\source\repos\EmployeePayments\EmployeePayments\obj\Debug\EmployeePayments.pdb
+C:\Users\w_ara\Documents\GitHub\Employee\EmployeePayments\EmployeePayments\bin\Debug\EmployeePayments.exe.config
+C:\Users\w_ara\Documents\GitHub\Employee\EmployeePayments\EmployeePayments\bin\Debug\EmployeePayments.exe
+C:\Users\w_ara\Documents\GitHub\Employee\EmployeePayments\EmployeePayments\bin\Debug\EmployeePayments.pdb
+C:\Users\w_ara\Documents\GitHub\Employee\EmployeePayments\EmployeePayments\obj\Debug\EmployeePayments.csprojAssemblyReference.cache
+C:\Users\w_ara\Documents\GitHub\Employee\EmployeePayments\EmployeePayments\obj\Debug\EmployeePayments.Form1.resources
+C:\Users\w_ara\Documents\GitHub\Employee\EmployeePayments\EmployeePayments\obj\Debug\EmployeePayments.Properties.Resources.resources
+C:\Users\w_ara\Documents\GitHub\Employee\EmployeePayments\EmployeePayments\obj\Debug\EmployeePayments.csproj.GenerateResource.cache
+C:\Users\w_ara\Documents\GitHub\Employee\EmployeePayments\EmployeePayments\obj\Debug\EmployeePayments.exe
+C:\Users\w_ara\Documents\GitHub\Employee\EmployeePayments\EmployeePayments\obj\Debug\EmployeePayments.pdb
